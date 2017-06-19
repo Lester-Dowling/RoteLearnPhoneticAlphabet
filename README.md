@@ -1,6 +1,14 @@
 # RoteLearnPhoneticAlphabet
 A command line tool for practising and learning by rote the international phonetic alphabet (i.e. alpha, bravo, charlie, delta, etc)..
 
+To build the target jar, cd into the cloned repository's directory and type:
+
+    mvn package
+
+Run a rote-learning session from the command line by typing:
+
+    java -jar RoteLearnPhoneticAlphabet.jar 3
+
 An example session:
 
 	Trial #1 of 78
